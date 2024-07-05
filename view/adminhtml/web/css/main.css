@@ -173,3 +173,43 @@
     line-height: 130%;
 }
 /* main amasty menu end*/
+
+.admin__dynamic-rows .admin__fieldset>.admin__field>.admin__field-control {
+    width: initial !important;
+    float: left;
+    margin-left: 30px;
+    background: #efefef;
+}
+
+.admin__dynamic-rows thead tr th {
+    background-color: #4f4943 !important;
+    color: white;
+
+}
+[data-index="elevate_landingpages_category_quicklinks"] {
+
+width:100% !important;
+}
+[data-index="elevate_landingpages_schema_faq"] {
+
+width:100% !important;
+}
+.admin__dynamic-rows .admin__control-table tr:nth-child(even) td {
+    background: #e4e4e4;
+}
+.admin__dynamic-rows .admin__dynamic-rows  thead tr th:last-of-type {
+    display: none;
+}
+
+.admin__dynamic-rows .image-uploader .image-placeholder {
+    margin-left: 0;
+    margin-right: 0;
+    margin: 0;
+    order: 1 !important;
+}
+
+.admin__dynamic-rows .file-uploader.image-uploader {
+    display: flex;
+    gap: 15px;
+    min-width: 315px;
+}
